@@ -366,6 +366,8 @@ Final push: wrapped up the Mac app merge consolidation for Talli, Epiphany, and 
 
 The biggest structural change came down the wire just now: the inkpress and journal repos that had gotten tangled up were properly separated tonight. Two products that had nothing in common beyond a naming accident are now cleanly split. Journal is a standalone Jekyll blog at its own github.com/nulljosh/journal repo, deployed via `./scripts/deploy.sh` (never plain `git push`). Inkpress is a general-purpose multi-feed RSS reader at nulljosh/inkpress, seeded on first launch with journal.heyitsmejosh.com/feed.xml as the default subscription, fully removable like any other feed. They're connected only at the content layer—a user can subscribe if they want, nothing forced. Better separation of concerns, cleaner codebases.
 
+Final wave: Joshua authenticated the asc web auth session directly, unlocking two dashboard-only blockers. Healstack's regulated medical device declaration got cleared via asc web apps medical-device set (the only path to that field), then build 1.0 submitted for review—fully shipped and now WAITING_FOR_REVIEW. Lexly Mac deletion via asc web apps delete hit a 409 conflict that proved to be a genuine Apple restriction: the app's only version is stuck in REJECTED state and won't delete until a human Apple support ticket clears it. Extended the asc-web-relogin skill with a post-login checklist documenting both commands for future use, plus a note not to delete Talli/Epiphany Mac yet since their merge replacements are still in flux.
+
 ## Apps Summary
 
 **Live & Shipping:**
