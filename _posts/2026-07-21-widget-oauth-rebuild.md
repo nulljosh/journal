@@ -31,6 +31,8 @@ Late night fix session on Talli: discovered the MARKETING_VERSION had gotten stu
 
 Submitted Spark Mac 1.0 for review tonight with a corrected app ID that had been stale in the workflow config (no issues encountered).
 
+By the end of the night, I'd successfully unified four apps into single App Store listings with Universal Purchase support across iOS and macOS. Epiphany Mac 2.5.2 went in cleanly after fixing encryption declarations, age-rating fields, and screenshot sizing. Echo and Sparkjar's Mac builds merged without drama once I caught and fixed the initial wrong-app submission on Echo. Lexly's merge was already done in an earlier session, just needed confirmation. Talli's merge is correct but locked externally while iOS 3.5.7 finishes review — that one will ship once the version clears. One night, four platforms unified.
+
 ## Apps Summary
 
 **Shipped tonight:** Healstack v1.0 (submitted for review, medical device declaration cleared via ASC web CLI). Epiphany Mac widget fix re-uploaded. Talli iOS 3.5.7 submitted (MARKETING_VERSION fix). Talli Mac widget fix consolidated, build VALID on iOS app but not yet submitted (awaiting user confirmation). Echo Mac 1.3.3 resubmitted correctly after initial wrong-app upload (now at correct app 6782604262, submission id 841fabc3). Litigate iOS 1.0.1 resubmitted. Sparkjar Mac 1.0 submitted.
