@@ -35,6 +35,10 @@ By the end of the night, I'd successfully unified four apps into single App Stor
 
 Final pass: ran roadmap pruning across the entire 16-app codebase to strip out completed `[x]` items (14 repos got roadmap.md updates). Verified the Obsidian vault sync is clean and all entity pages match current state. The wiki infrastructure got a fresh update earlier tonight (wiki-refresh skill wired into the nightly routine permanently), so master.md and the vault are now in sync.
 
+## Wednesday
+
+Started with a market briefing: Iran strikes escalating, Zelensky sacked his army commander, Congress punted the government shutdown fight past midterms, Arizona primaries went heavily Trump, and France banned social media for under-15s. Spent the rest of the evening investigating autotrading through Epiphany — specifically bridging Wealthsimple and SnapTrade (both read-only portfolio data feeds) with a live trading API to execute trades based on news signals. Discovered that neither Wealthsimple nor SnapTrade publish trade-execution APIs (Wealthsimple is internal-only, SnapTrade is aggregation + analytics), so the architecture needs a separate brokerage. Evaluated Alpaca (free paper trading, straightforward REST API, no Canadian equities but handles US stocks/crypto) versus Interactive Brokers (supports TSX/Canadian equities but heavier KYC setup and complexity). Documented the research in epiphany/roadmap.md as a concrete next step — Joshua wants to sign up for Alpaca himself tomorrow since account creation needs identity verification. The foundation for Alpaca integration is scoped; blocked on the account setup, not on our end.
+
 ## Apps Summary
 
 **Shipped tonight:** Healstack v1.0 (submitted for review, medical device declaration cleared via ASC web CLI). Epiphany Mac widget fix re-uploaded. Talli iOS 3.5.7 submitted (MARKETING_VERSION fix). Talli Mac widget fix consolidated, build VALID on iOS app but not yet submitted (awaiting user confirmation). Echo Mac 1.3.3 resubmitted correctly after initial wrong-app upload (now at correct app 6782604262, submission id 841fabc3). Litigate iOS 1.0.1 resubmitted. Sparkjar Mac 1.0 submitted.
