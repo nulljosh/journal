@@ -13,7 +13,7 @@ Fixed a systemic Mac widget bug across Talli and Epiphany: both were missing NSE
 
 Wired Twitter/X OAuth keys into Epiphany on Vercel after re-activating the X developer account. Sign-in was previously disabled; now live in production. Tested end-to-end and committed the configuration.
 
-Spine got renamed from "Spineless" to "Bindwise" after discovering "Spine" was already taken on the App Store. Icon export bug was also fixed (stale signing profile + missing UISupportedInterfaceOrientations in the project config), cleaned up in commit 531d730.
+Spine got renamed from "Spynne" to "Bindwise" (later renamed again to "Spinework" 2026-07-22 to get closer to "Spine," which itself is unavailable). Icon export bug was fixed (stale signing profile + missing UISupportedInterfaceOrientations in the project config), cleaned up in commit 531d730.
 
 Healstack shipped v1.0 to App Store review. Medical device declaration was cleared via the asc web CLI—a regulated-category gate that has no programmatic path and requires manual dashboard interaction. The build is now in review (commit efbb929).
 
@@ -59,6 +59,6 @@ Evening push: wrapped up a full pass on Epiphany's landing page and core feature
 
 **In flight:** Healstack (waiting review after medical device cleared). Talli iOS (3.5.7 submitted 2026-07-21). Talli Mac (widget fix VALID, holding pending iOS review completion + user confirmation). Echo iOS (1.3.3 submitted 2026-07-19). Echo Mac (1.3.3 resubmitted 2026-07-21 to correct app after initial wrong-app error). Litigate iOS (1.0.1 resubmitted 2026-07-21, macOS still awaits app record creation). Inkpress iOS (1.0.2 waiting review, availability pending). Lexly iOS/Mac (1.1.1 in review after merge). Sparkjar Mac (1.0 submitted 2026-07-21). Nullfolio iOS (submitted, waiting review).
 
-**Active:** Epiphany (Twitter OAuth + Sign in with Apple now live, landing page Stripe checkout wired, venue detail photos fixed, local event pins expanding). Spine renamed to Bindwise (icon export bug fixed). Cloudflare migration plan approved and staged for next session (bright-baking-lake.md).
+**Active:** Epiphany (Twitter OAuth + Sign in with Apple now live, landing page Stripe checkout wired, venue detail photos fixed, local event pins expanding). Spine renamed to Spinework (was Bindwise, icon export bug fixed). Cloudflare migration plan approved and staged for next session (bright-baking-lake.md).
 
 **Blockers:** Healstack—regulated medical device declaration requires ASC dashboard (no API path). Epiphany—SnapTrade phantom holdings (disabled Trade tab, needs manual disconnect/reconnect in Settings); Twitter OAuth keys now wired but requires user dev-account setup. Litigate—macOS app record needs creation before iOS/macOS merge completes. Sparkjar—bundle ID rename (com.heyitsmejosh.spark → sparkjar) still pending. Echo—orphaned old Mac app (6783015101) needs manual dashboard deletion. Talli—orphaned old Mac app (6782661988) needs manual dashboard deletion.
