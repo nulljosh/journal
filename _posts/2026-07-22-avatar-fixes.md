@@ -27,6 +27,8 @@ Late evening update: fixed Inkpress's blank splash screen by setting a proper na
 
 Final pass on Talli: circled back and fixed a stale hardcoded version string in the What's New sheet—it was still saying 3.5.6 despite the app being 3.5.8. Changed it to read the bundle version dynamically at runtime so it never drifts again, no matter which version ships.
 
+Wrapped up with a GitHub repo consolidation pass: folded the old standalone `abraham`, `video-speed-ext`, `bank`, and `code-meta` repos into the `labs` monorepo where they belong alongside other toolkit code. Deleted the archived `braingraph` repo entirely (merged into notes back in July). Briefly toggled `newsline` and `quotable` as archived to audit dependencies, then unarchived them — no net change to those two. Final repo count: 22 active repos, down from 27.
+
 ## Apps Summary
 
 **Active:** Epiphany (v2.6.1 live, Mac 2.5.2 unified), Talli (iOS 3.5.8 submitted 07-22, Mac build VALID), Echo (iOS 1.3.3 submitted 07-22, Mac 1.3.3 unified), Lexly (1.1.1 in review, Mac merged), Litigate (iOS 1.0.1 submitted 07-21, Mac 1.0.1 uploaded 07-22 — now universal iOS+Mac on one record), Inkpress (1.0.2 approved + live), Healstack (1.0 waiting, Mac universal setup + Release verified), Sparkjar (Mac 1.0 submitted), BCGD (icon redesigned 07-22, ready to submit), Nullfolio (1.0 resubmitted with icon fix). **Orphaned (need dashboard deletion):** Echo Transcribe Mac, Lexly Mac (409 rejections block auto-deletion). **Infrastructure:** Bindwise icon pending, app icon personality audit queued.
