@@ -19,7 +19,6 @@ jobs:
         with:
           ruby-version: "3.3"
           bundler-cache: true
-          working-directory: journal
       - run: bundle exec jekyll build
 
   docs:
