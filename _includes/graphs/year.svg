@@ -1,44 +1,45 @@
 <svg class="post-header-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360">
 <rect x="20" y="20" width="760" height="320" rx="12" ry="12" fill="none" stroke="currentColor" stroke-width="1" opacity="0.25"/>
 <text fill="currentColor" x="48" y="62" font-size="12" opacity="0.6">year</text>
-<text fill="currentColor" x="48" y="96" font-size="28" font-weight="300" letter-spacing="-0.5">11297 commits per week since 2026-02-20</text>
+<text fill="currentColor" x="48" y="96" font-size="28" font-weight="300" letter-spacing="-0.5">11370 commits per week since 2026-02-20</text>
 <line stroke="currentColor" x1="48" y1="118" x2="752" y2="118" stroke-width="1" opacity="0.25"/>
-<rect x="224.0" y="299" width="17.6" height="1" fill="currentColor" opacity="0.6"/>
-<rect x="243.6" y="298" width="17.6" height="2" fill="currentColor" opacity="0.6"/>
-<rect x="263.1" y="299" width="17.6" height="1" fill="currentColor" opacity="0.6"/>
-<rect x="282.7" y="299" width="17.6" height="1" fill="currentColor" opacity="0.6"/>
-<rect x="302.2" y="296" width="17.6" height="4" fill="currentColor" opacity="0.6"/>
-<rect x="321.8" y="298" width="17.6" height="2" fill="currentColor" opacity="0.6"/>
-<rect x="360.9" y="292" width="17.6" height="8" fill="currentColor" opacity="0.6"/>
-<rect x="380.4" y="285" width="17.6" height="15" fill="currentColor" opacity="0.6"/>
-<rect x="400.0" y="282" width="17.6" height="18" fill="currentColor" opacity="0.6"/>
-<rect x="419.6" y="287" width="17.6" height="13" fill="currentColor" opacity="0.6"/>
-<rect x="439.1" y="291" width="17.6" height="9" fill="currentColor" opacity="0.6"/>
-<rect x="458.7" y="281" width="17.6" height="19" fill="currentColor" opacity="0.6"/>
-<rect x="478.2" y="281" width="17.6" height="19" fill="currentColor" opacity="0.6"/>
-<rect x="497.8" y="286" width="17.6" height="14" fill="currentColor" opacity="0.6"/>
-<rect x="517.3" y="282" width="17.6" height="18" fill="currentColor" opacity="0.6"/>
-<rect x="536.9" y="285" width="17.6" height="15" fill="currentColor" opacity="0.6"/>
-<rect x="556.4" y="271" width="17.6" height="29" fill="currentColor" opacity="0.6"/>
-<rect x="576.0" y="243" width="17.6" height="57" fill="currentColor" opacity="0.6"/>
-<rect x="595.6" y="238" width="17.6" height="62" fill="currentColor" opacity="0.6"/>
-<rect x="615.1" y="224" width="17.6" height="76" fill="currentColor" opacity="0.6"/>
-<rect x="634.7" y="224" width="17.6" height="76" fill="currentColor" opacity="0.6"/>
-<rect x="654.2" y="238" width="17.6" height="62" fill="currentColor" opacity="0.6"/>
-<rect x="673.8" y="188" width="17.6" height="112" fill="currentColor" opacity="0.6"/>
-<rect x="693.3" y="256" width="17.6" height="44" fill="currentColor" opacity="0.6"/>
-<rect x="712.9" y="179" width="17.6" height="121" fill="currentColor" opacity="0.6"/>
-<rect x="732.4" y="140" width="17.6" height="160" fill="currentColor" opacity="0.6"/>
-<line stroke="currentColor" x1="331.6" y1="300" x2="331.6" y2="310" stroke-width="1" opacity="0.5"/>
-<text fill="currentColor" x="331.6" y="324" font-size="10" opacity="0.6" text-anchor="middle">spring</text>
-<line stroke="currentColor" x1="507.6" y1="300" x2="507.6" y2="310" stroke-width="1" opacity="0.5"/>
-<text fill="currentColor" x="507.6" y="324" font-size="10" opacity="0.6" text-anchor="middle">renames</text>
-<line stroke="currentColor" x1="566.2" y1="300" x2="566.2" y2="310" stroke-width="1" opacity="0.5"/>
-<text fill="currentColor" x="566.2" y="324" font-size="10" opacity="0.6" text-anchor="middle">accurate</text>
-<line stroke="currentColor" x1="624.9" y1="300" x2="624.9" y2="310" stroke-width="1" opacity="0.5"/>
-<text fill="currentColor" x="624.9" y="324" font-size="10" opacity="0.6" text-anchor="middle">scale</text>
-<line stroke="currentColor" x1="644.4" y1="300" x2="644.4" y2="310" stroke-width="1" opacity="0.5"/>
-<text fill="currentColor" x="644.4" y="324" font-size="10" opacity="0.6" text-anchor="middle">kernel</text>
-<line stroke="currentColor" x1="683.6" y1="300" x2="683.6" y2="310" stroke-width="1" opacity="0.5"/>
-<text fill="currentColor" x="683.6" y="324" font-size="10" opacity="0.6" text-anchor="middle">october</text>
+<rect x="219.2" y="299" width="17.0" height="1" fill="currentColor" opacity="0.6"/>
+<rect x="238.3" y="298" width="17.0" height="2" fill="currentColor" opacity="0.6"/>
+<rect x="257.3" y="299" width="17.0" height="1" fill="currentColor" opacity="0.6"/>
+<rect x="276.3" y="299" width="17.0" height="1" fill="currentColor" opacity="0.6"/>
+<rect x="295.4" y="296" width="17.0" height="4" fill="currentColor" opacity="0.6"/>
+<rect x="314.4" y="298" width="17.0" height="2" fill="currentColor" opacity="0.6"/>
+<rect x="352.4" y="292" width="17.0" height="8" fill="currentColor" opacity="0.6"/>
+<rect x="371.5" y="286" width="17.0" height="14" fill="currentColor" opacity="0.6"/>
+<rect x="390.5" y="282" width="17.0" height="18" fill="currentColor" opacity="0.6"/>
+<rect x="409.5" y="287" width="17.0" height="13" fill="currentColor" opacity="0.6"/>
+<rect x="428.5" y="291" width="17.0" height="9" fill="currentColor" opacity="0.6"/>
+<rect x="447.6" y="281" width="17.0" height="19" fill="currentColor" opacity="0.6"/>
+<rect x="466.6" y="281" width="17.0" height="19" fill="currentColor" opacity="0.6"/>
+<rect x="485.6" y="287" width="17.0" height="13" fill="currentColor" opacity="0.6"/>
+<rect x="504.6" y="282" width="17.0" height="18" fill="currentColor" opacity="0.6"/>
+<rect x="523.7" y="285" width="17.0" height="15" fill="currentColor" opacity="0.6"/>
+<rect x="542.7" y="272" width="17.0" height="28" fill="currentColor" opacity="0.6"/>
+<rect x="561.7" y="244" width="17.0" height="56" fill="currentColor" opacity="0.6"/>
+<rect x="580.8" y="238" width="17.0" height="62" fill="currentColor" opacity="0.6"/>
+<rect x="599.8" y="225" width="17.0" height="75" fill="currentColor" opacity="0.6"/>
+<rect x="618.8" y="225" width="17.0" height="75" fill="currentColor" opacity="0.6"/>
+<rect x="637.8" y="239" width="17.0" height="61" fill="currentColor" opacity="0.6"/>
+<rect x="656.9" y="189" width="17.0" height="111" fill="currentColor" opacity="0.6"/>
+<rect x="675.9" y="257" width="17.0" height="43" fill="currentColor" opacity="0.6"/>
+<rect x="694.9" y="181" width="17.0" height="119" fill="currentColor" opacity="0.6"/>
+<rect x="713.9" y="140" width="17.0" height="160" fill="currentColor" opacity="0.6"/>
+<rect x="733.0" y="296" width="17.0" height="4" fill="currentColor" opacity="0.6"/>
+<line stroke="currentColor" x1="323.9" y1="300" x2="323.9" y2="310" stroke-width="1" opacity="0.5"/>
+<text fill="currentColor" x="323.9" y="324" font-size="10" opacity="0.6" text-anchor="middle">spring</text>
+<line stroke="currentColor" x1="495.1" y1="300" x2="495.1" y2="310" stroke-width="1" opacity="0.5"/>
+<text fill="currentColor" x="495.1" y="324" font-size="10" opacity="0.6" text-anchor="middle">renames</text>
+<line stroke="currentColor" x1="552.2" y1="300" x2="552.2" y2="310" stroke-width="1" opacity="0.5"/>
+<text fill="currentColor" x="552.2" y="324" font-size="10" opacity="0.6" text-anchor="middle">accurate</text>
+<line stroke="currentColor" x1="609.3" y1="300" x2="609.3" y2="310" stroke-width="1" opacity="0.5"/>
+<text fill="currentColor" x="609.3" y="324" font-size="10" opacity="0.6" text-anchor="middle">scale</text>
+<line stroke="currentColor" x1="628.3" y1="300" x2="628.3" y2="310" stroke-width="1" opacity="0.5"/>
+<text fill="currentColor" x="628.3" y="324" font-size="10" opacity="0.6" text-anchor="middle">kernel</text>
+<line stroke="currentColor" x1="666.4" y1="300" x2="666.4" y2="310" stroke-width="1" opacity="0.5"/>
+<text fill="currentColor" x="666.4" y="324" font-size="10" opacity="0.6" text-anchor="middle">october</text>
 </svg>
