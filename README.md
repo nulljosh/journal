@@ -1,8 +1,6 @@
 <img src="icon.svg" width="80">
 
-# Journal
-
-![version](https://img.shields.io/badge/version-v2.4.0-blue) ![license](https://img.shields.io/badge/license-MIT-green) [![GitHub](https://img.shields.io/badge/GitHub-nulljosh%2Fjournal-black?logo=github)](https://github.com/nulljosh/labs/tree/main/journal)
+![version](https://img.shields.io/badge/version-v2.4.0-blue) ![license](https://img.shields.io/badge/license-MIT-green)
 
 My journal. A Jekyll blog, a few big entries a year.
 Live at [journal.jaybulb.com](https://journal.jaybulb.com).
