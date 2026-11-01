@@ -1,0 +1,33 @@
+# One row per project or theme. A post is listed under a row when its text names any of the words.
+# Old names stay in the list so earlier posts still match after a rename.
+- {name: Joshua Tree, words: [Joshua Tree]}
+- {name: Turing, words: [Turing, Samantha]}
+- {name: Epiphany, words: [Epiphany]}
+- {name: Nimble, words: [Nimble]}
+- {name: Talli, words: [Talli]}
+- {name: Kernel, words: [Kernel, Bookrank, Spine]}
+- {name: Echo, words: [Echo, Notate, Voxprint]}
+- {name: Patois, words: [Patois, Tonchi, Lexly]}
+- {name: Melete, words: [Melete, Thinkpond, Sparkjar, Hikko]}
+- {name: Mailbag, words: [Mailbag, Hagaki, Siftbox]}
+- {name: Machaon, words: [Machaon, Intake, Healstack]}
+- {name: Pan, words: [Curvely, Tangent, " Pan "]}
+- {name: Icelus, words: [Icelus, Morphis, Wiretext]}
+- {name: Eponym, words: [Eponym, Wordroot, Etyma]}
+- {name: Coda, words: [Coda, Quotestreak]}
+- {name: Bugle, words: [Bugle, Coranto, Inkpress, Sidewise]}
+- {name: Cyllene, words: [Cyllene, Hermes]}
+- {name: Elah, words: [Elah, Bible]}
+- {name: Atlin, words: [Atlin, Roost, Brick]}
+- {name: Gastown, words: [Gastown, NYC Survive]}
+- {name: Temida, words: [Temida, Themis, Litigate]}
+- {name: Blackcomb, words: [Blackcomb, Madobe, Lucarne]}
+- {name: Scrounger, words: [Scrounge, Curbfind]}
+- {name: Sighting, words: [Sighting, Maera, Homeward]}
+- {name: Duke, words: [Duke, Surf, Cruise, Duolingo, Factorio]}
+- {name: Plank, words: [Plank]}
+- {name: Vancouver Vice, words: [Vancouver Vice, Rainjack, Unreal]}
+- {name: Noema, words: [Noema, Evidna]}
+- {name: App Store review, words: [App Review, rejected, rejection]}
+- {name: Renames, words: [renamed, rename]}
+- {name: Hardware, words: [Raspberry Pi, the Pi, microSD]}

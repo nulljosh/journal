@@ -1,0 +1,25 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+<article class="post">
+  <a href="/" class="back-link">back</a>
+  <h1 class="post-title">Projects</h1>
+  <p>Every project and theme, with the posts that talk about it. Old names count, so a post from before a rename still shows up.</p>
+  {% for p in site.data.projects %}
+    {% assign hits = "" %}
+    {% for post in site.posts %}
+      {% for w in p.words %}{% if post.content contains w %}{% assign hits = hits | append: post.id | append: "|" %}{% break %}{% endif %}{% endfor %}
+    {% endfor %}
+    {% if hits != "" %}
+    <h2 id="{{ p.name | slugify }}">{{ p.name }}</h2>
+    <ul class="post-list">
+      {% for post in site.posts %}{% assign key = post.id | append: "|" %}{% if hits contains key %}
+      <li class="post-list-item"><a href="{{ post.url }}"><span class="home-date">{{ post.date | date: "%Y-%m-%d" }}</span> {{ post.title }}</a></li>
+      {% endif %}{% endfor %}
+    </ul>
+    {% endif %}
+  {% endfor %}
+</article>
+{% include footer.html %}

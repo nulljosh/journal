@@ -12,8 +12,6 @@ Shipped instead in: epiphany, healstack, roost, curvely, wiretext, litigate,
 cadence, sparkjar, lexly, talli, quotable, wordroot, newsline, nyc, notes,
 bookrank, homeward.
 
-## Archive navigation and discovery — scoped 2026-09-11
+## Archive navigation and discovery
 
-- [ ] Per-app index page: view the history of each project at a glance
-- [ ] Tags or categories: find entries by theme or topic
-- [ ] Visible RSS link in footer: make subscriptions obvious
+Done 2026-11-01: /projects/ lists every project and theme with the posts that name it (old names count), and the footer has had an rss link all along.
