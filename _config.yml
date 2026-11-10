@@ -26,6 +26,7 @@ exclude:
   - README.md
   - CLAUDE.md
   - AGENTS.md
+  - brand/BRAND.md
   - scripts
   - default.profraw
   - vendor

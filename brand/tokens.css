@@ -1,0 +1,41 @@
+/* Journal design tokens. Same names as the app repos (see eponym/brand/tokens.css),
+   served from this site so nothing depends on another origin. */
+:root {
+  /* color: off-white paper, fleet blue */
+  --accent: #0a62d8;
+  --link: #0a58c2;
+  --bg: #fcfcfb;
+  --bg2: #f3f3f1;
+  --text: #1d1d1f;
+  --text2: #6e6e73;
+  --border: #e3e3df;
+
+  /* type: system font, no webfonts */
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-code: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* space: the 8 point grid */
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 32px; --s7: 48px;
+  --measure: 38rem;          /* reading column */
+
+  /* shape */
+  --r-card: 28px;
+  --r-group: 20px;
+  --r-pill: 999px;
+
+  /* motion */
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* ponytail: dark hangs off data-theme only. theme-script.html sets it from the
+   system setting before first paint, so a prefers-color-scheme copy of this
+   block would only serve no-JS visitors. Add one if that ever matters. */
+[data-theme="dark"] {
+  --link: #5aa9ff;
+  --bg: #000000;
+  --bg2: #1c1c1e;
+  --text: #f5f5f7;
+  --text2: rgba(235, 235, 245, .62);
+  --border: rgba(84, 84, 88, .55);
+}

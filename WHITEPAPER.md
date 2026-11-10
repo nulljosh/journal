@@ -37,12 +37,10 @@ a few entries someone would actually read, not a complete record.
 
 ## Design
 
-Shares the portfolio's design tokens (`heyitsmejosh.com/tokens.css`) for
-color/spacing, keeping the blue `--accent` and text-hierarchy variables in
-sync across sites so a visual change made once doesn't have to be
-rediscovered here, but keeps body text in Geist rather than the portfolio's
-monospace, because a monospace face is fine for a code-flavored portfolio
-and tiring to read in long paragraphs.
+Keeps its own design tokens in `brand/tokens.css`, with the same names the
+app repos use, so the journal reads as part of the same family without
+loading a stylesheet from another site. Off-white paper, one blue accent,
+and the system font, because long paragraphs want a quiet face.
 
 ## Companion App
 

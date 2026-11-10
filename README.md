@@ -1,6 +1,6 @@
 <img src="icon.svg" width="80">
 
-![version](https://img.shields.io/badge/version-v2.4.0-blue) ![license](https://img.shields.io/badge/license-MIT-green)
+![version](https://img.shields.io/badge/version-v2.5.0-blue) ![license](https://img.shields.io/badge/license-MIT-green)
 
 My journal. A Jekyll blog, a few big entries a year.
 Live at [journal.jaybulb.com](https://journal.jaybulb.com).
@@ -29,6 +29,9 @@ bundle exec jekyll serve
 - [ ] Add automatic image optimization for post assets.
 
 ## Changelog
+v2.5.0
+- Own design tokens in `brand/tokens.css`, like the app repos. Blue accent, rounded cards, system font. Dropped the unused Geist files and old header art.
+
 v2.4.0
 - Split out of the `inkpress` repo into its own repo (2026-07-21), see Inkpress's own README for the RSS reader app side.
 

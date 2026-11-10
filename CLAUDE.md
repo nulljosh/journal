@@ -1,5 +1,5 @@
 # Journal
-v2.4.0
+v2.5.0
 
 Personal Jekyll blog at `journal.jaybulb.com`, repo `nulljosh/journal`. Split out of `inkpress` 2026-07-21; Inkpress (iOS RSS reader) can subscribe to `feed.xml`, nothing else is shared.
 
@@ -29,7 +29,7 @@ House style, not optional: an information card summarizing the entry. 800x500 ro
 `scripts/graphs.py` writes `{% include graphs/<post>.svg %}` (placed after the header) from git history across `~/Documents/Code`, plus `graphs/year.svg`, `graphs/streak.html` and `assets/og/<post>.png` (needs rsvg-convert). It runs from `deploy.sh`. Never hand-edit a graph; rerun the script.
 
 ## Style
-Shares the portfolio's tokens (`jaybulb.com/tokens.css`, linked before `main.css`); blue `--accent` for links. Body font is Geist, not mono.
+Own tokens in `brand/tokens.css`, linked before `main.css`, same names as the app repos (reference `eponym/brand/tokens.css`). Off-white paper, blue `--accent`, system font, no webfonts. `main.css` defines no colours of its own. Dark hangs off `data-theme`, set by `theme-script.html`. Bump the `?v=` on both links in `_layouts/default.html` when either file changes. `brand/BRAND.md` has the rules.
 
 ## Publish
 ```bash
