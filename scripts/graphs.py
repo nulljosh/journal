@@ -83,18 +83,22 @@ def year_svg(by_day, posts, today):
     o = ['<svg class="post-header-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360">',
          '<rect x="20" y="20" width="760" height="320" rx="12" ry="12" fill="none" stroke="currentColor" stroke-width="1" opacity="0.25"/>',
          '<text fill="currentColor" x="48" y="62" font-size="12" opacity="0.6">year</text>',
-         f'<text fill="currentColor" x="48" y="96" font-size="28" font-weight="300" letter-spacing="-0.5">{sum(by_day.values())} commits per week since {FIRST_START}</text>',
+         f'<text fill="currentColor" x="48" y="96" font-size="28" font-weight="300" letter-spacing="-0.5">{sum(by_day.values())} commits since {FIRST_START}, by week</text>',
          '<line stroke="currentColor" x1="48" y1="118" x2="752" y2="118" stroke-width="1" opacity="0.25"/>']
     for w in range(weeks):
         h = round(160 * per_week.get(w, 0) / peak)
         if h:
             o.append(f'<rect x="{48 + w * bw:.1f}" y="{300 - h}" width="{max(1, bw - 2):.1f}" height="{h}" fill="currentColor" opacity="0.6"/>')
+    last_x, low = -99, False
     for post in posts:
         d = date.fromisoformat(post.name[:10])
         x = 48 + ((d - FIRST_START).days // 7 + 0.5) * bw
         title = re.search(r'^title:\s*"?([^"\n]+)', post.read_text(), re.M).group(1)
-        o.append(f'<line stroke="currentColor" x1="{x:.1f}" y1="300" x2="{x:.1f}" y2="310" stroke-width="1" opacity="0.5"/>')
-        o.append(f'<text fill="currentColor" x="{x:.1f}" y="324" font-size="10" opacity="0.6" text-anchor="middle">{title.lower()}</text>')
+        # two posts a few weeks apart print on top of each other, so the second drops a row
+        low = x - last_x < 44 and not low
+        last_x = x
+        o.append(f'<line stroke="currentColor" x1="{x:.1f}" y1="300" x2="{x:.1f}" y2="{322 if low else 310}" stroke-width="1" opacity="0.5"/>')
+        o.append(f'<text fill="currentColor" x="{x:.1f}" y="{335 if low else 324}" font-size="10" opacity="0.6" text-anchor="middle">{title.lower()}</text>')
     return "\n".join(o) + "\n</svg>\n"
 
 

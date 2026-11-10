@@ -3,7 +3,10 @@
     var saved = localStorage.getItem('theme');
     var theme = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
     document.documentElement.setAttribute('data-theme', theme);
+    paint(theme);
   })();
+  // the browser bar follows the paper colour in brand/tokens.css
+  function paint(t) { document.querySelector('meta[name=theme-color]').content = t === 'dark' ? '#000000' : '#fcfcfb'; }
   window.addEventListener('load', function() {
     var btn = document.querySelector('.theme-toggle');
     if (!btn) return;
@@ -13,6 +16,7 @@
       document.documentElement.classList.add('transition');
       setTimeout(function() { document.documentElement.classList.remove('transition'); }, 400);
       document.documentElement.setAttribute('data-theme', t);
+      paint(t);
       btn.setAttribute('aria-pressed', String(t === 'dark'));
       localStorage.setItem('theme', t);
     });
