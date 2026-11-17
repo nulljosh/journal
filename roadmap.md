@@ -15,3 +15,6 @@ bookrank, homeward.
 ## Archive navigation and discovery
 
 Done 2026-11-01: /projects/ lists every project and theme with the posts that name it (old names count), and the footer has had an rss link all along.
+
+## Ingested 2026-11-16
+- [ ] (Note "Journal") Needs a /mobbin pass and some theming, not just black and white. The style right now sucks.
